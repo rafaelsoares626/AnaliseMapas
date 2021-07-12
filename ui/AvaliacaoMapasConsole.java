@@ -1,17 +1,11 @@
 package avaliacaoMapas.ui;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 
 import avaliacaoMapas.model.AppAvMapas;
 import avaliacaoMapas.model.AvMapasLogicaIF;
 import avaliacaoMapas.persistencia.CorDAOSQL;
-import avaliacaoMapas.persistencia.ImagemDAOFile;
 
 public class AvaliacaoMapasConsole {
 	private AvMapasLogicaIF logica;
@@ -68,4 +62,5 @@ public class AvaliacaoMapasConsole {
 	public static void main(String[] args) throws Exception {
 		(new AvaliacaoMapasConsole()).run();
 	}
+	//C:\\Users\\rafae\\Desktop\\repositorioImagens\\Imagem_1
 }
