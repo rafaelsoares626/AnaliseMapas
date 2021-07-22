@@ -23,7 +23,7 @@ public class CorDAOSQL implements CorDAOIF{
 
 	private static final String URI = "jdbc:postgresql://localhost:5432/cores";
 	private static final String USER = "postgres";
-	private static final String PWD = "ra1984";
+	private static final String PWD = "senha";
 	
 	private static final String COR_INSERT = "INSERT INTO CORES(id, nome, simbolo, red, green, blue, cyan, magenta, yellow, black, tipo) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 	private static final String COR_UPDATE = "UPDATE CORES SET nome = ?, simbolo = ? WHERE id = ?";
